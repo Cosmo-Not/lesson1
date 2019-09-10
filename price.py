@@ -4,3 +4,4 @@ def format_price(price):
 
 a = format_price(56.24)
 print(a)
+print(a)
