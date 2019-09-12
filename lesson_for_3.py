@@ -7,7 +7,6 @@ all_scores = [
 scores_sum_a=0
 scores_sum_b=0
 scores_sum_v=0
-scores_sum_all=0
 
 for score in all_scores[0]["scores"]:
     scores_sum_a += score
