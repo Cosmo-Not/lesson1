@@ -17,3 +17,4 @@ for class_score in all_scores:
     key_school_class = key_school_class + 1
 
 avg_school_score = sum_avg_class_score / 3
+print (f'Средний балл по школе: {avg_school_score}')
