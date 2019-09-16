@@ -17,4 +17,8 @@ for class_score in all_scores:
     key_school_class = key_school_class + 1
 
 avg_school_score = sum_avg_class_score / len(all_scores)
+<<<<<<< HEAD
 print (f'Средний балл по школе: {avg_school_score}')
+=======
+print (f'Средний балл по школе: {avg_school_score}')
+>>>>>>> 5627e4b680dc12a4179ba9614931c5cf0ad6dd9a
