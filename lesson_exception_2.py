@@ -7,6 +7,6 @@ def discounted(price, discount, max_discount=20):
         else:
             return price - (price * discount / 100)
     except (TypeError):
-        print ("В функцию нужно передавать числа!")
+        raise TypeError ("В функцию были переданы не числовые переменные")
 
 print(discounted (1000, '10'))
